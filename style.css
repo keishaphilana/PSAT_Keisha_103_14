@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+a, a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.logo {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 4rem;
+  box-shadow: #53FF33 0 0 1.5rem;
+}
+
+.header {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8rem;
+}
+
+.header>h4 {
+  font-size: 2rem;
+}
+
+.header>ul {
+  display: flex;
+  list-style-type: none;
+  gap: 1rem;
+}
+.header li {
+  font-size: 1.1rem;
+  padding: 3px 16px;
+  border-radius: 4px;
+  transition: 0.s;
+  border: solid 1px transparent;
+}
+
+.header li:hover {
+  background-color: #e6e6e6;
+  translate: 0 -4px;
+}
+
+.pembungkus {
+  padding: 4rem 8rem;
+  position: relative;
+}
+
+.pembungkus-judul {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.pembungkus-judul>div {
+  width: 50%
+}
+.pembungkus-judul>div>h2 {
+  font-size:2.3rem;
+}
+.pembungkus-judul>div>h1 {
+  font-size: 5.4rem;
+}
+.pembungkus-judul>div>p {
+  font-size: 1.2rem;
+  padding-top: 0.5rem;
+}
+
+.pembungkus-judul>img {
+  width: 50%
+}
+
+.pembungkus-definisi> p {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.pembungkus-definisi2 {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+
+.pembungkus-definisi2>img {
+  width: 35%
+}
+.pembungkus-definisi2>p {
+  width: 65%;
+  text-align: center;
+  font-size: 1.4rem;
+}
+.pembungkus-pembagian-zaman > div {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+  gap: 2rem;
+  align-items: center;
+}
+.pembungkus-pembagian-zaman > h2 {
+  text-align: center;
+  font-size: 2.4rem;
+}
+
+.item-pembagian-zaman>img {
+  width: 100%;
+}
+.item-pembagian-zaman * {
+  text-align: center;
+  display: block;
+}
+.item-pembagian-zaman>h3 {
+  font-size: 1.3rem;
+  margin-bottom: 6px;
+}
+.item-pembagian-zaman>a {
+  background-color: #fdba74;
+  width: fit-content;
+  color: #431407;
+  border-radius: 4px;
+  padding: 2px 8px;
+  margin-inline: auto;
+}
+
+.pembungkus-ciri-ciri > h2 {
+  font-size: 2.4rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.pembungkus-ciri-ciri > div {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+  gap: 2.4rem;
+}
+
+.item-ciri-ciri {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.item-ciri-ciri>img {
+  width: 50%;
+  aspect-ratio:1/1;
+}
+
+.item-ciri-ciri> p {
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.pembungkus-kepunahan {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.pembungkus-kepunahan > h2 {
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+.pembungkus-kepunahan p {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.pembungkus-meteorit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.pembungkus-meteorit > h3 {
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.pembungkus-meteorit > img {
+  width: 40%;
+}
+
+.bg-element {
+  position: absolute;
+}
+
+.el1 {
+  width: 6rem;
+
+  top: 3rem;
+  right: -3rem;
+}
+
+.el2 {
+  width: 6rem;
+
+  bottom: -2rem;
+  left: -2rem;
+}
